@@ -1,0 +1,28 @@
+.case-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.case-container__slot {
+    margin-top: 50px;
+    border: 1px solid #333;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+#case-slot5 {
+    background-color: gold;
+}
+
+@media screen and (max-width: 768px) {
+    .case-container__slot {
+        width: 50px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 50px;
+    }
+}

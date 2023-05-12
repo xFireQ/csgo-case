@@ -1,0 +1,31 @@
+.settings {
+    display: grid;
+    justify-content: center;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.settings__slider {
+    width: 300px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid gold;
+    background-color: transparent;
+}
+
+.settings__slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 25px;
+    background: gold;
+    cursor: pointer;
+}
+
+.settings__value {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+}

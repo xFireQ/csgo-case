@@ -1,0 +1,26 @@
+button {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 800;
+    height: 50px;
+    border: none;
+    color: #fff;
+    position: relative;
+    background-color: transparent;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%);
+    transition: all 0.3s ease;
+    border: 1px solid gold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: gold;
+}
+
+.settings-button {
+    position: absolute;
+    top: 200px;
+    top: 650px;
+}
